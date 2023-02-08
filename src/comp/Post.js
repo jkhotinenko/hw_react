@@ -1,11 +1,14 @@
 import React from 'react';
-
-const Post = () => {
+import {CurPost} from "./CurPost";
+const Post = ({post}) => {
+  const  {id, title} = post;
     return (
         <div>
-            Post
+            <div>  id: {id}</div>
+            <div>  title: {title}</div>
+            <button onClick={CurPost(id) }>Select</button>
         </div>
     );
 };
 
-export {Post];
+export {Post};
