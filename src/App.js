@@ -6,9 +6,11 @@ import {Posts} from "./comp/Posts";
 function App() {
 
   return (
+
       <div>
        <Posts />
     </div>
+
   );
 }
 
