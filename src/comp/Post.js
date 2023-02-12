@@ -1,5 +1,4 @@
 import React from 'react';
-import {CurPost} from "./CurPost";
 const Post = ({post,setSelPost}) => {
 
   const  {id, title} = post;
